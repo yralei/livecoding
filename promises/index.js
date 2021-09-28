@@ -15,12 +15,9 @@ function saveUser(userData) {
     .then((responce) => responce.json())
     .then((body) => {
       console.log(body);
-    })
-    .catch((e) => {
-      // ..
     });
-  // console.log(responce.status);
 
+  // console.log(responce.status);
   // console.log(body);
 
   console.log(res);
